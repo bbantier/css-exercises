@@ -61,3 +61,14 @@ button {
 .backdrop.show {
   opacity: 30%;
 }
+
+/* Assignment */
+
+.popup-modal {
+  transform: translate(-50%, -100%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.popup-modal.show {
+  transform: translate(-50%, -50%);
+}
